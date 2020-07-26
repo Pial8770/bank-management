@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#f7d708"
+    tools:context=".deposit">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer info"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#065535"
+        />
+
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name  : "
+        android:id="@+id/depositTextV"
+        />
+
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:text="Account number  : "
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/depositTextV2"
+        />
+
+
+    <TextView
+        android:layout_marginBottom="50dp"
+        android:text="Balance  : "
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/depositTextV3"
+        />
+
+
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:text="Enter amount to deposit!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#065535"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/depositTextV4"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter amount"
+        android:id="@+id/depositEditText"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/depositButton"
+        android:text="Deposit"
+        android:textAllCaps="false"
+        android:layout_marginBottom="60dp"
+        android:background="#a0db8e"
+
+
+        />
+
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:text="Enter amount to withdraw!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#065535"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/depositTextV5"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter amount"
+        android:id="@+id/depositEditText2"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/depositButton2"
+        android:text="Withdraw"
+        android:textAllCaps="false"
+        android:background="#a0db8e"
+        />
+
+
+
+</LinearLayout>
